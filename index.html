@@ -3,150 +3,175 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MN Coaching | Mark Nanashee | Billiards Performance</title>
+    <title>Handsome Mark Billiards | Mark Nanashee | Elevate Your Game</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        submariner: {
+                            800: '#0c3a7a', // Rich Royal Blue from Logo Ring
+                            900: '#07244d', // Deep Navy Midtone
+                            950: '#051833', // Dark Navy Base Background
+                        },
+                        gold: {
+                            300: '#f3e5ab', // Soft Champagne Gold Accent
+                            400: '#e5c158', // Warm Gold Highlight
+                            500: '#d4af37', // Primary Metallic Gold
+                            600: '#b89228', // Dark Antique Gold Border
+                        }
+                    }
+                }
+            }
+        }
+    </script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
-<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-indigo-500 selection:text-white">
+<body class="bg-submariner-950 text-slate-100 font-sans antialiased selection:bg-gold-500 selection:text-submariner-950">
 
     <!-- Navigation Header -->
-    <header class="sticky top-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
+    <header class="sticky top-0 z-50 bg-submariner-950/90 backdrop-blur-md border-b border-gold-500/30">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
-                <!-- Branding / Refined SVG Monogram Logo -->
+                <!-- Branding / Logo Integration -->
                 <a href="#" class="flex items-center gap-3.5 group">
-                    <div class="w-11 h-11 rounded-xl bg-gradient-to-br from-indigo-500 to-indigo-700 flex items-center justify-center text-white font-black text-xl tracking-tighter shadow-lg shadow-indigo-600/30 group-hover:from-indigo-400 group-hover:to-indigo-600 transition">
-                        <svg class="w-7 h-7 fill-current text-white" viewBox="0 0 24 24">
-                            <!-- SVG Stylized MN Geometric Mark -->
-                            <path d="M3 18V6h2.5l3.5 6.5L12.5 6H15v12h-2.5V10.5L9 16.5 5.5 10.5V18H3zm13.5 0V6H19l2.5 7.5V6H23v12h-2.5L18 10.5V18h-1.5z"/>
-                        </svg>
-                    </div>
+                    <img src="HMB_Billiards_Logo_800x800.png" alt="Handsome Mark Billiards Logo" class="h-14 w-auto object-contain">
                     <div class="flex flex-col">
-                        <span class="font-extrabold text-lg tracking-tight text-white leading-none">MN COACHING</span>
-                        <span class="text-xs text-indigo-400 font-medium tracking-wider uppercase mt-1">Mark Nanashee</span>
+                        <span class="font-extrabold text-lg tracking-tight text-gold-500 leading-none group-hover:text-gold-400 transition">HANDSOME MARK BILLIARDS</span>
+                        <span class="text-xs text-gold-300/80 font-medium tracking-wider uppercase mt-1">Mark Nanashee</span>
                     </div>
                 </a>
 
                 <!-- Nav Links -->
                 <nav class="hidden md:flex items-center gap-8">
-                    <a href="#about" class="text-sm font-medium text-slate-300 hover:text-white transition">About</a>
-                    <a href="#curriculum" class="text-sm font-medium text-slate-300 hover:text-white transition">Curriculum</a>
-                    <a href="#video-analysis" class="text-sm font-medium text-slate-300 hover:text-white transition">Video Analysis</a>
-                    <a href="#rates" class="text-sm font-medium text-slate-300 hover:text-white transition">
-    Rates
-</a>
-                    <a href="#contact" class="px-4 py-2 text-sm font-semibold rounded-lg bg-indigo-600 text-white hover:bg-indigo-500 transition shadow-md shadow-indigo-600/20">Book a Lesson</a>
+                    <a href="#about" class="text-sm font-medium text-slate-300 hover:text-gold-400 transition">About</a>
+                    <a href="#curriculum" class="text-sm font-medium text-slate-300 hover:text-gold-400 transition">Curriculum</a>
+                    <a href="#video-analysis" class="text-sm font-medium text-slate-300 hover:text-gold-400 transition">Video Analysis</a>
+                    <a href="#rates" class="text-sm font-medium text-slate-300 hover:text-gold-400 transition">Rates</a>
+                    <a href="#contact" class="px-4 py-2 text-sm font-semibold rounded-lg bg-gold-500 text-submariner-950 hover:bg-gold-400 transition shadow-md shadow-gold-500/20">Book a Lesson</a>
                 </nav>
             </div>
         </div>
     </header>
 
     <!-- Hero Section -->
-    <section class="relative py-20 lg:py-32 overflow-hidden border-b border-slate-800/80">
+    <section class="relative py-16 lg:py-24 overflow-hidden border-b border-gold-500/20 bg-gradient-to-b from-submariner-950 via-submariner-900 to-submariner-950">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-            <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 mb-6">
-                <span class="w-2 h-2 rounded-full bg-indigo-400 animate-pulse"></span>
+            
+            <!-- Hero Centerpiece Logo -->
+            <div class="flex justify-center mb-6">
+                <img src="HMB_Billiards_Logo_800x800.png" alt="Handsome Mark Billiards Crest" class="w-48 sm:w-60 h-auto object-contain drop-shadow-[0_10px_25px_rgba(0,0,0,0.6)]">
+            </div>
+
+            <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-gold-500/10 text-gold-400 border border-gold-500/30 mb-6">
+                <span class="w-2 h-2 rounded-full bg-gold-400 animate-pulse"></span>
                 Structured Billiards Instruction
             </span>
-            <h1 class="text-4xl sm:text-6xl font-extrabold text-white tracking-tight leading-tight mb-6">
+            <h1 class="text-4xl sm:text-6xl font-extrabold text-white tracking-tight leading-tight mb-4">
                 Elevate your game through structure and discipline.
             </h1>
-            <p class="text-lg sm:text-xl text-slate-400 max-w-3xl mx-auto mb-10 leading-relaxed">
+            <p class="text-xl sm:text-2xl text-gold-300 font-serif italic max-w-3xl mx-auto mb-8">
+                Elevate Your Game
+            </p>
+            <p class="text-base sm:text-lg text-slate-300 max-w-3xl mx-auto mb-10 leading-relaxed">
                 Data-backed billiards performance coaching combining fundamental mechanics and process-driven sports psychology.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="#contact" class="px-8 py-4 font-semibold text-white bg-indigo-600 rounded-xl hover:bg-indigo-500 transition shadow-lg shadow-indigo-600/30 text-center">
+                <a href="#contact" class="px-8 py-4 font-semibold text-submariner-950 bg-gold-500 rounded-xl hover:bg-gold-400 transition shadow-lg shadow-gold-500/25 text-center">
                     Book a Lesson
                 </a>
-                <a href="#curriculum" class="px-8 py-4 font-semibold text-slate-300 bg-slate-900 border border-slate-700 rounded-xl hover:bg-slate-800 hover:text-white transition text-center">
+                <a href="#curriculum" class="px-8 py-4 font-semibold text-slate-200 bg-submariner-900 border border-gold-500/30 rounded-xl hover:bg-submariner-800 hover:text-gold-400 transition text-center">
                     View Curriculum
                 </a>
             </div>
         </div>
     </section>
-<!-- About Section -->
-<section id="about" class="py-20 border-b border-slate-800/80">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid lg:grid-cols-12 gap-12 items-center">
-            
-            <!-- Left Column: Bio Narrative -->
-            <div class="lg:col-span-7 space-y-6">
-                <span class="px-3 py-1 rounded-full text-xs font-semibold bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 inline-block">
-                    Instructor Profile
-                </span>
-                <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-                    Mark Nanashee
-                </h2>
-                <p class="text-lg text-slate-300 leading-relaxed">
-                    Billiards excellence is built on repeatable mechanics, tactical discipline, and situational composure under match pressure. My coaching framework translates high-level tournament execution into a structured, accessible roadmap for players determined to elevate their game.
-                </p>
-                <p class="text-slate-400 leading-relaxed">
-                    With decades of competitive experience, my approach isolates fundamental flaws, refines shot routine consistency, and installs process-driven decision making—helping students eliminate unforced errors and perform reliably when the pressure is on.
-                </p>
 
-                <!-- Key Credentials / Badges -->
-                <div class="pt-4 grid sm:grid-cols-2 gap-4">
-                    <div class="p-4 rounded-xl bg-slate-900 border border-slate-800 flex items-start gap-3">
-                        <div class="w-8 h-8 rounded-lg bg-indigo-500/10 text-indigo-400 flex items-center justify-center shrink-0">
-                            <i class="fa-solid fa-trophy text-sm"></i>
+    <!-- About Section -->
+    <section id="about" class="py-20 border-b border-submariner-900">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Left Column: Bio Narrative -->
+                <div class="lg:col-span-7 space-y-6">
+                    <span class="px-3 py-1 rounded-full text-xs font-semibold bg-gold-500/10 text-gold-400 border border-gold-500/20 inline-block">
+                        Instructor Profile
+                    </span>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+                        Mark Nanashee
+                    </h2>
+                    <p class="text-lg text-slate-300 leading-relaxed">
+                        At <strong class="text-gold-400">Handsome Mark Billiards</strong>, excellence is built on repeatable mechanics, tactical discipline, and situational composure under match pressure. My coaching framework translates high-level tournament execution into a structured, accessible roadmap for players determined to elevate their game.
+                    </p>
+                    <p class="text-slate-400 leading-relaxed">
+                        With decades of competitive experience, my approach isolates fundamental flaws, refines shot routine consistency, and installs process-driven decision making—helping students eliminate unforced errors and perform reliably when the pressure is on.
+                    </p>
+
+                    <!-- Key Credentials / Badges -->
+                    <div class="pt-4 grid sm:grid-cols-2 gap-4">
+                        <div class="p-4 rounded-xl bg-submariner-900 border border-gold-500/20 flex items-start gap-3">
+                            <div class="w-8 h-8 rounded-lg bg-gold-500/10 text-gold-400 flex items-center justify-center shrink-0">
+                                <i class="fa-solid fa-trophy text-sm"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-bold text-white">Super Billiards Expo</h4>
+                                <p class="text-xs text-slate-400 mt-0.5">Tied for 5th Place (Amateur Division, 1,000+ Player Field)</p>
+                            </div>
                         </div>
-                        <div>
-                            <h4 class="text-sm font-bold text-white">Super Billiards Expo</h4>
-                            <p class="text-xs text-slate-400 mt-0.5">Tied for 5th Place (Amateur Division, 1,000+ Player Field)</p>
+
+                        <div class="p-4 rounded-xl bg-submariner-900 border border-gold-500/20 flex items-start gap-3">
+                            <div class="w-8 h-8 rounded-lg bg-gold-500/10 text-gold-400 flex items-center justify-center shrink-0">
+                                <i class="fa-solid fa-medal text-sm"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-bold text-white">Regional & State Results</h4>
+                                <p class="text-xs text-slate-400 mt-0.5">Multiple victories & deep runs across PA State 9-Ball & regional events</p>
+                            </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="p-4 rounded-xl bg-slate-900 border border-slate-800 flex items-start gap-3">
-                        <div class="w-8 h-8 rounded-lg bg-indigo-500/10 text-indigo-400 flex items-center justify-center shrink-0">
-                            <i class="fa-solid fa-medal text-sm"></i>
-                        </div>
-                        <div>
-                            <h4 class="text-sm font-bold text-white">Regional & State Results</h4>
-                            <p class="text-xs text-slate-400 mt-0.5">Multiple victories & deep runs across PA State 9-Ball & regional events</p>
+                <!-- Right Column: Highlight Card / Stat Summary -->
+                <div class="lg:col-span-5">
+                    <div class="bg-gradient-to-br from-submariner-900 via-submariner-900 to-submariner-800 p-8 rounded-3xl border border-gold-500/30 shadow-xl space-y-6">
+                        <h3 class="text-xl font-bold text-gold-400 border-b border-submariner-800 pb-4">
+                            Competitive Track Record
+                        </h3>
+
+                        <ul class="space-y-4 text-sm text-slate-300">
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-gold-400 mt-1 shrink-0"></i>
+                                <span><strong>Super Billiards Expo:</strong> T-5th place finish in a field of over 1,000 competitive players.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-gold-400 mt-1 shrink-0"></i>
+                                <span><strong>Derby City Classic:</strong> Multiple deep tournament finishes and cashes against national competition.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-gold-400 mt-1 shrink-0"></i>
+                                <span><strong>PA State 9-Ball Championship:</strong> High finishes and consistent match execution in state-level competition.</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-circle-check text-gold-400 mt-1 shrink-0"></i>
+                                <span><strong>Regional Titles:</strong> Numerous local and regional tournament wins across various disciplines.</span>
+                            </li>
+                        </ul>
+
+                        <div class="pt-2">
+                            <a href="#contact" class="w-full py-3 font-semibold text-center text-submariner-950 bg-gold-500 rounded-xl hover:bg-gold-400 transition shadow-lg shadow-gold-500/20 block">
+                                Work With Mark
+                            </a>
                         </div>
                     </div>
                 </div>
+
             </div>
-
-            <!-- Right Column: Highlight Card / Stat Summary -->
-            <div class="lg:col-span-5">
-                <div class="bg-gradient-to-br from-slate-900 via-slate-900 to-indigo-950/40 p-8 rounded-3xl border border-slate-800 shadow-xl space-y-6">
-                    <h3 class="text-xl font-bold text-white border-b border-slate-800 pb-4">
-                        Competitive Track Record
-                    </h3>
-
-                    <ul class="space-y-4 text-sm text-slate-300">
-                        <li class="flex items-start gap-3">
-                            <i class="fa-solid fa-circle-check text-indigo-400 mt-1 shrink-0"></i>
-                            <span><strong>Super Billiards Expo:</strong> T-5th place finish in a field of over 1,000 competitive players.</span>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <i class="fa-solid fa-circle-check text-indigo-400 mt-1 shrink-0"></i>
-                            <span><strong>Derby City Classic:</strong> Multiple deep tournament finishes and cashes against national competition.</span>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <i class="fa-solid fa-circle-check text-indigo-400 mt-1 shrink-0"></i>
-                            <span><strong>PA State 9-Ball Championship:</strong> High finishes and consistent match execution in state-level competition.</span>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <i class="fa-solid fa-circle-check text-indigo-400 mt-1 shrink-0"></i>
-                            <span><strong>Regional Titles:</strong> Numerous local and regional tournament wins across various disciplines.</span>
-                        </li>
-                    </ul>
-
-                    <div class="pt-2">
-                        <a href="#contact" class="w-full py-3 font-semibold text-center text-white bg-indigo-600 rounded-xl hover:bg-indigo-500 transition shadow-lg shadow-indigo-600/25 block">
-                            Work With Mark
-                        </a>
-                    </div>
-                </div>
-            </div>
-
         </div>
-    </div>
-</section>
+    </section>
+
     <!-- Curriculum Section -->
-    <section id="curriculum" class="py-20 bg-slate-900/50 border-b border-slate-800/80">
+    <section id="curriculum" class="py-20 bg-submariner-900/50 border-b border-submariner-900">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
                 <h2 class="text-3xl font-bold text-white tracking-tight mb-4">Core Curriculum</h2>
@@ -157,59 +182,59 @@
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 
                 <!-- Module 1 -->
-                <div class="p-6 bg-slate-900 rounded-2xl border border-slate-800 hover:border-slate-700 transition flex flex-col justify-between">
+                <div class="p-6 bg-submariner-900 rounded-2xl border border-gold-500/20 hover:border-gold-500/50 transition flex flex-col justify-between">
                     <div>
-                        <div class="text-xs font-bold text-indigo-400 uppercase tracking-widest mb-2">Module 1</div>
+                        <div class="text-xs font-bold text-gold-400 uppercase tracking-widest mb-2">Module 1</div>
                         <h3 class="text-xl font-bold text-white mb-3">Mechanics & Alignment</h3>
                         <p class="text-slate-400 text-sm leading-relaxed">Establish a repeatable, smooth stroke, a solid stance, and precise vision center alignment.</p>
                     </div>
                 </div>
 
                 <!-- Module 2 -->
-                <div class="p-6 bg-slate-900 rounded-2xl border border-slate-800 hover:border-slate-700 transition flex flex-col justify-between">
+                <div class="p-6 bg-submariner-900 rounded-2xl border border-gold-500/20 hover:border-gold-500/50 transition flex flex-col justify-between">
                     <div>
-                        <div class="text-xs font-bold text-indigo-400 uppercase tracking-widest mb-2">Module 2</div>
+                        <div class="text-xs font-bold text-gold-400 uppercase tracking-widest mb-2">Module 2</div>
                         <h3 class="text-xl font-bold text-white mb-3">Position & Cue Ball Control</h3>
                         <p class="text-slate-400 text-sm leading-relaxed">Master the 90° tangent line and 30° rolling ball line, natural shape routes, and self-diagnosis techniques.</p>
                     </div>
                 </div>
 
                 <!-- Module 3 -->
-                <div class="p-6 bg-slate-900 rounded-2xl border border-slate-800 hover:border-slate-700 transition flex flex-col justify-between">
+                <div class="p-6 bg-submariner-900 rounded-2xl border border-gold-500/20 hover:border-gold-500/50 transition flex flex-col justify-between">
                     <div>
-                        <div class="text-xs font-bold text-indigo-400 uppercase tracking-widest mb-2">Module 3</div>
+                        <div class="text-xs font-bold text-gold-400 uppercase tracking-widest mb-2">Module 3</div>
                         <h3 class="text-xl font-bold text-white mb-3">Technical Shot-Making</h3>
                         <p class="text-slate-400 text-sm leading-relaxed">Develop precision visualization techniques, speed control, kicking, and banking.</p>
                     </div>
                 </div>
 
                 <!-- Module 4 -->
-                <div class="p-6 bg-slate-900 rounded-2xl border border-slate-800 hover:border-slate-700 transition flex flex-col justify-between">
+                <div class="p-6 bg-submariner-900 rounded-2xl border border-gold-500/20 hover:border-gold-500/50 transition flex flex-col justify-between">
                     <div>
-                        <div class="text-xs font-bold text-indigo-400 uppercase tracking-widest mb-2">Module 4</div>
+                        <div class="text-xs font-bold text-gold-400 uppercase tracking-widest mb-2">Module 4</div>
                         <h3 class="text-xl font-bold text-white mb-3">Mental Game & Composure</h3>
                         <p class="text-slate-400 text-sm leading-relaxed">Build unbreakable composure under match pressure using breathing techniques, structured pre-shot processes, and personal accountability.</p>
                     </div>
                 </div>
 
                 <!-- Module 5 -->
-                <div class="p-6 bg-slate-900 rounded-2xl border border-slate-800 hover:border-slate-700 transition flex flex-col justify-between">
+                <div class="p-6 bg-submariner-900 rounded-2xl border border-gold-500/20 hover:border-gold-500/50 transition flex flex-col justify-between">
                     <div>
-                        <div class="text-xs font-bold text-indigo-400 uppercase tracking-widest mb-2">Module 5</div>
+                        <div class="text-xs font-bold text-gold-400 uppercase tracking-widest mb-2">Module 5</div>
                         <h3 class="text-xl font-bold text-white mb-3">Break Strategy & Table Mapping</h3>
                         <p class="text-slate-400 text-sm leading-relaxed">Optimize break accuracy, read rack dynamics, and map multi-ball run-out routes efficiently.</p>
                     </div>
                 </div>
 
                 <!-- Video Analysis Feature Card -->
-                <div class="p-6 bg-slate-900/60 rounded-2xl border border-amber-500/30 relative overflow-hidden flex flex-col justify-between">
+                <div class="p-6 bg-submariner-900/80 rounded-2xl border border-gold-500/40 relative overflow-hidden flex flex-col justify-between">
                     <div class="absolute top-3 right-3">
-                        <span class="px-2.5 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-amber-500/10 text-amber-400 border border-amber-500/20">
+                        <span class="px-2.5 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-gold-500/10 text-gold-300 border border-gold-500/30">
                             Coming Soon
                         </span>
                     </div>
                     <div>
-                        <div class="text-xs font-bold text-amber-400 uppercase tracking-widest mb-2">Remote Coaching</div>
+                        <div class="text-xs font-bold text-gold-400 uppercase tracking-widest mb-2">Remote Coaching</div>
                         <h3 class="text-xl font-bold text-white mb-3">Precision Video Analysis</h3>
                         <p class="text-slate-400 text-sm leading-relaxed">Using specialized mobile analysis tools, we will soon offer remote motion breakdown of your stroke, stance, and shot addressing.</p>
                     </div>
@@ -220,11 +245,11 @@
     </section>
 
     <!-- Video Analysis Preview Section -->
-    <section id="video-analysis" class="py-20 border-b border-slate-800/80">
+    <section id="video-analysis" class="py-20 border-b border-submariner-900">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="bg-gradient-to-br from-slate-900 to-indigo-950/40 p-8 sm:p-12 rounded-3xl border border-slate-800 text-center sm:text-left flex flex-col sm:flex-row items-center justify-between gap-8">
+            <div class="bg-gradient-to-br from-submariner-900 to-submariner-800 p-8 sm:p-12 rounded-3xl border border-gold-500/30 text-center sm:text-left flex flex-col sm:flex-row items-center justify-between gap-8">
                 <div class="max-w-2xl">
-                    <span class="px-3 py-1 rounded-full text-xs font-semibold bg-amber-500/10 text-amber-400 border border-amber-500/20 mb-4 inline-block">
+                    <span class="px-3 py-1 rounded-full text-xs font-semibold bg-gold-500/10 text-gold-400 border border-gold-500/20 mb-4 inline-block">
                         Future Expansion
                     </span>
                     <h3 class="text-2xl sm:text-3xl font-bold text-white mb-4">Remote Coaching</h3>
@@ -233,7 +258,7 @@
                     </p>
                 </div>
                 <div class="shrink-0">
-                    <a href="#contact" class="px-6 py-3 font-semibold text-slate-200 bg-slate-800 border border-slate-700 rounded-xl hover:bg-slate-700 hover:text-white transition inline-block">
+                    <a href="#contact" class="px-6 py-3 font-semibold text-slate-200 bg-submariner-950 border border-gold-500/30 rounded-xl hover:bg-submariner-900 hover:text-gold-400 transition inline-block">
                         Inquire Direct
                     </a>
                 </div>
@@ -242,60 +267,58 @@
     </section>
 
     <!-- Contact & Booking Section -->
-    <section id="contact" class="py-20 bg-slate-900/30">
+    <section id="contact" class="py-20 bg-submariner-900/30">
         <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 class="text-3xl font-bold text-white tracking-tight mb-4">Schedule Your Coaching Session</h2>
             <p class="text-slate-400 text-lg mb-8">
                 Reach out directly to discuss your goals or check upcoming schedule availability.
             </p>
-            <div class="inline-flex flex-col sm:flex-row gap-4 justify-center w-full max-w-md">
-                <a href="mailto:contact@marknanashee.com" class="w-full px-8 py-4 font-semibold text-white bg-indigo-600 rounded-xl hover:bg-indigo-500 transition shadow-lg shadow-indigo-600/30 text-center flex items-center justify-center gap-2">
-                    <i class="fa-regular fa-envelope"></i> Contact Mark directly
-                <!-- Direct Contact Info Banner -->
-<div class="mb-10 text-center max-w-2xl mx-auto">
-    <p class="text-slate-300 text-base mb-4">
-        Ready to schedule or have questions before booking? Contact Mark directly:
-    </p>
-    <div class="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 bg-slate-900/80 border border-slate-800 p-5 rounded-2xl">
-        <!-- Direct Phone -->
-        <a href="tel:2157041245" class="flex items-center gap-3 text-lg font-bold text-white hover:text-indigo-400 transition group">
-            <div class="w-10 h-10 rounded-xl bg-indigo-500/10 text-indigo-400 flex items-center justify-center group-hover:bg-indigo-600 group-hover:text-white transition">
-                <i class="fa-solid fa-phone text-sm"></i>
-            </div>
-            <span>(215) 704-1245</span>
-        </a>
+            
+            <!-- Direct Contact Info Banner -->
+            <div class="mb-10 text-center max-w-2xl mx-auto">
+                <p class="text-slate-300 text-base mb-4">
+                    Ready to schedule or have questions before booking? Contact Mark directly:
+                </p>
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 bg-submariner-900 border border-gold-500/30 p-5 rounded-2xl">
+                    <!-- Direct Phone -->
+                    <a href="tel:2157041245" class="flex items-center gap-3 text-lg font-bold text-white hover:text-gold-400 transition group">
+                        <div class="w-10 h-10 rounded-xl bg-gold-500/10 text-gold-400 flex items-center justify-center group-hover:bg-gold-500 group-hover:text-submariner-950 transition">
+                            <i class="fa-solid fa-phone text-sm"></i>
+                        </div>
+                        <span>(215) 704-1245</span>
+                    </a>
 
-        <div class="hidden sm:block text-slate-700">|</div>
+                    <div class="hidden sm:block text-slate-700">|</div>
 
-        <!-- Direct Email -->
-        <a href="mailto:mark@marknanashee.com" class="flex items-center gap-3 text-base font-medium text-slate-300 hover:text-indigo-400 transition group">
-            <div class="w-10 h-10 rounded-xl bg-slate-800 text-indigo-400 flex items-center justify-center group-hover:bg-indigo-600 group-hover:text-white transition">
-                <i class="fa-solid fa-envelope text-sm"></i>
-            </div>
-            <span>mark@marknanashee.com</span>
-        </a>
-    </div>
-</div>
-                </a>
+                    <!-- Direct Email -->
+                    <a href="mailto:mark@marknanashee.com" class="flex items-center gap-3 text-base font-medium text-slate-300 hover:text-gold-400 transition group">
+                        <div class="w-10 h-10 rounded-xl bg-submariner-950 text-gold-400 flex items-center justify-center group-hover:bg-gold-500 group-hover:text-submariner-950 transition">
+                            <i class="fa-solid fa-envelope text-sm"></i>
+                        </div>
+                        <span>mark@marknanashee.com</span>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
-<!-- Minimal Rates Notice -->
-<section id="rates" class="py-12 bg-slate-900 border-t border-b border-slate-800">
-    <div class="max-w-3xl mx-auto px-4 text-center">
-        <p class="text-slate-400 text-sm uppercase tracking-wider font-semibold mb-2">Instruction Rates</p>
-        <p class="text-xl sm:text-2xl text-white font-medium">
-            Standard rate is <span class="text-indigo-400 font-bold">$100 / hour</span> with a 2-hour minimum session.
-        </p>
-        <p class="text-slate-400 text-sm mt-2">
-            Custom scheduling, multi-session packages, and intensive training options discussed during your consultation.
-        </p>
-    </div>
-</section>
+
+    <!-- Rates Section -->
+    <section id="rates" class="py-12 bg-submariner-900 border-t border-b border-gold-500/30">
+        <div class="max-w-3xl mx-auto px-4 text-center">
+            <p class="text-gold-400 text-sm uppercase tracking-wider font-semibold mb-2">Instruction Rates</p>
+            <p class="text-xl sm:text-2xl text-white font-medium">
+                Standard rate is <span class="text-gold-400 font-bold">$100 / hour</span> with a 2-hour minimum session.
+            </p>
+            <p class="text-slate-400 text-sm mt-2">
+                Custom scheduling, multi-session packages, and intensive training options discussed during your consultation.
+            </p>
+        </div>
+    </section>
+
     <!-- Footer -->
-    <footer class="py-10 border-t border-slate-800 text-center text-xs text-slate-500">
+    <footer class="py-10 border-t border-submariner-900 text-center text-xs text-slate-500">
         <div class="max-w-6xl mx-auto px-4">
-            <p>&copy; 2026 MN Coaching (Mark Nanashee Coaching). All rights reserved.</p>
+            <p>&copy; 2026 Handsome Mark Billiards. All rights reserved. | Elevate Your Game</p>
         </div>
     </footer>
 
